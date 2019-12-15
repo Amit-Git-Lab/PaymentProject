@@ -1,0 +1,20 @@
+type Query{
+ getPayableAmount(shoppingCartDtlsVO : ShoppingCartDtlsVOInput): PayableAmountVO
+}
+
+input ShoppingCartDtlsVOInput{
+   user : String!
+   noOfItems : Long!
+   custYearDuration: Int!
+   itemDetailsVO :[ItemDetailsVOInput!]!
+}
+
+input ItemDetailsVOInput{
+  itemType: String!
+  price : Float!
+
+}
+type PayableAmountVO{
+ netAmount : Float
+ discountType : String
+}

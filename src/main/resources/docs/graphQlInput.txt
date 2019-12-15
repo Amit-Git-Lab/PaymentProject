@@ -1,0 +1,33 @@
+
+*****************************Sample Input************************************
+query{
+  getPayableAmount(shoppingCartDtlsVO:{
+    user:"AE"
+     noOfItems:2
+    custYearDuration:2
+    itemDetailsVO:[{
+      itemType:"NGRC"
+      price:50
+      
+    },{
+      itemType:"GRC"
+      price:10
+      
+    }]
+  }) {
+    netAmount
+    discountType
+  }
+}
+
+
+
+**************************Sample Output*********************************************
+{
+  "data": {
+    "getPayableAmount": {
+      "netAmount": 55,
+      "discountType": "Get 10% discount on non groceries item for Affliated Employee"
+    }
+  }
+}
