@@ -1,12 +1,12 @@
 /**
  * 
  */
-package retail.com.payamentService;
+package retail.com.payament.service;
 
 import org.springframework.stereotype.Service;
 
-import retail.com.graphTypes.PayableAmountVO;
-import retail.com.graphTypes.ShoppingCartDtlsVO;
+import retail.com.graph.types.PayableAmountVO;
+import retail.com.graph.types.ShoppingCartDtlsVO;
 
 /**
  * @author amit

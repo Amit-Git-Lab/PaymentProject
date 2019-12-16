@@ -1,7 +1,7 @@
 /**
  * 
  */
-package retail.com.discountService;
+package retail.com.discount.service;
 
 /**
  * @author amit

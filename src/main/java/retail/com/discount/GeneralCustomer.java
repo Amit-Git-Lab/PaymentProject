@@ -3,7 +3,7 @@
  */
 package retail.com.discount;
 
-import retail.com.discountService.DiscountType;
+import retail.com.discount.service.DiscountType;
 
 /**
  * @author amit

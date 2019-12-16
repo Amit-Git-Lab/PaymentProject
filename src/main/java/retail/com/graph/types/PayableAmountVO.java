@@ -1,7 +1,7 @@
 /**
  * 
  */
-package retail.com.graphTypes;
+package retail.com.graph.types;
 
 /**
  * @author amit

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package retail.com.payamentServiceImpl;
+package retail.com.payament.service.impl;
 
 import org.springframework.stereotype.Service;
 
@@ -9,10 +9,10 @@ import retail.com.constants.Constant;
 import retail.com.discount.GeneralCustomer;
 import retail.com.discount.StoreAffilatedEmployee;
 import retail.com.discount.StoreEmployee;
-import retail.com.graphTypes.ItemDetailsVO;
-import retail.com.graphTypes.PayableAmountVO;
-import retail.com.graphTypes.ShoppingCartDtlsVO;
-import retail.com.payamentService.PaymentService;
+import retail.com.graph.types.ItemDetailsVO;
+import retail.com.graph.types.PayableAmountVO;
+import retail.com.graph.types.ShoppingCartDtlsVO;
+import retail.com.payament.service.PaymentService;
 
 @Service
 public class PaymentServiceImpl implements PaymentService {
